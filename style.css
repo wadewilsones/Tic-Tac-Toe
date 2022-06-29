@@ -5,3 +5,113 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 300;
 }
+
+h1{
+    text-align: center;
+    margin: 1em 0 0.5em;
+}
+
+h3{
+    text-align: center;
+
+}
+
+#name {
+    display: block;
+    width:90%;
+    max-width: 500px;
+    margin: 1em auto;
+    font-size: 1.2em;
+    padding: 10px;
+    border-bottom:2px solid rgb(40, 191, 161);
+}
+
+#name::placeholder{
+    padding: 10px;
+}
+
+#name:focus{
+    outline: none;
+    border-bottom:2px solid rgb(40, 122, 194);
+}
+
+.submittion {
+    display: block;
+    width:90%;
+    max-width: 300px;
+    background-color: rgb(40, 191, 161);
+    color: white;
+    font-weight: 400;
+    margin: 1em auto;
+    font-size: 1.2em;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.submittion:hover{
+    background-color: rgb(26, 138, 115);
+}
+
+.board{
+    width:90%;
+    max-width: 600px;
+    margin: auto;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-template-rows: repeat(3,33%);
+}
+
+.boardCell{
+    font-size: 90px;
+    text-align: center;
+    align-self: center;
+    cursor: pointer;
+    border:2px solid darkcyan;
+    height: 100%;
+}
+
+/*handle wrong input*/
+
+#wrongInput{
+    display: block;
+    width:90%;
+    max-width: 500px;
+    margin: 1em auto;
+    font-size: 1.2em;
+    padding: 10px;
+    border-bottom:2px solid rgb(206, 61, 21)!important;
+}
+#wrongInput::placeholder{
+font-weight: 400;
+   color:rgb(206, 61, 21)!important;
+}
+
+/*X and O style*/
+
+
+main section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+}
+.choicePlayer{
+    border:2px solid rgb(40, 191, 161);
+    border-radius: 20px;
+    margin:0 0.2em 0 0.2em;
+    text-align: center;
+    width:200px;
+    height:100px;
+    cursor: pointer;
+}
+
+.choicePlayer:hover{
+    background-color: rgb(40, 191, 161);;
+    color:white;
+}
+
+.choicePlayer:active{
+    background-color: rgb(40, 191, 161);;
+    color:white;
+}
