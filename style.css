@@ -115,3 +115,10 @@ main section{
     background-color: rgb(40, 191, 161);;
     color:white;
 }
+
+.gameEnd{
+    width:500px;
+    margin:auto;
+    font-size:2em;
+}
+
