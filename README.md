@@ -1,7 +1,7 @@
 # Tic-Tac-Toe
 A Tic Tac Toe game you can play in your browser!
 
-![Tic-Tac-Toe]()
+![Tic-Tac-Toe](https://raw.githubusercontent.com/wadewilsones/Tic-Tac-Toe/main/tictactoe.jpg)
 
 ## Get started
 
