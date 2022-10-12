@@ -5,8 +5,8 @@ A Tic Tac Toe game you can play in your browser!
 
 ```
 gh repo clone wadewilsones/Tic-Tac-Toe
-
 ```
 
 2. Open index.html in your browser.
+
 3. Play
