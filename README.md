@@ -1,6 +1,9 @@
 # Tic-Tac-Toe
 A Tic Tac Toe game you can play in your browser!
 
+
+## Get started
+
 1. Copy the repo into your local machine using:
 
 ```
